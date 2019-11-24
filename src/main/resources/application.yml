@@ -1,0 +1,13 @@
+graphiql:
+  mapping: /graphiql
+  endpoint:
+    graphql: /graphql
+    subscriptions: /subscriptions
+  subscriptions:
+    timeout: 30
+    reconnect: false
+  enabled: true
+  pageTitle: GraphiQL
+  props:
+    variables:
+      editorTheme: "solarized light"
